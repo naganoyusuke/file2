@@ -28,24 +28,29 @@ chmood +x third.py
 ```
 rosrun mypkg third.py
 ```
-```
 別の端末を立ち上げる
+
 ```
 chmod +x fourth.py
 ```
 ```
 rosrun mypkg fourth.py
 ```
+
 別の端末を立ち上げる
+
 ```
 chmod +x fifth.py
 ```
 ```
 rosrun mypkg fifth.py
 ```
+
 別の端末を立ち上げる
+
 ```
 rostopic echo /fifth
+```
 
 # ライセンス
 ライセンスファイルがありますのでそちらをご覧ください。
