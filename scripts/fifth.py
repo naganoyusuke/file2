@@ -1,4 +1,9 @@
 #!/usr/bin/env python3
+
+#SPDX-Licence-Identifier:BSD-2
+#*Copyright(c)2022 Ryuich Ueda. All rights reserved.
+#*Copyright(c)2022 Yusuke Nagano. All rights reserverd."
+
 import rospy
 from std_msgs.msg import Int32
 
