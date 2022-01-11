@@ -4,7 +4,7 @@ from std_msgs.msg import Int32
 
 rospy.init_node('fourth')
 pub = rospy.Publisher('fourth_up',Int32, queue_size=1)
-rate = rospy.Rate(10)
+rate = rospy.Rate(20)
 n = 0
 def cb(message):
 	pub.publish(message.data*4)
